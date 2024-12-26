@@ -19,5 +19,8 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // call the Group Seeder class
+        $this->call(GroupSeeder::class);
     }
 }
