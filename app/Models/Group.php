@@ -14,4 +14,9 @@ class Group extends Model
         'name',
         'numeric'
     ];
+
+    public function sections()
+    {
+        return $this->belongsToMany(Section::class, 'group_section', 'group_id', 'section_id');
+    }
 }
