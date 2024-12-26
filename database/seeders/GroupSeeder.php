@@ -17,15 +17,15 @@ class GroupSeeder extends Seeder
         $groups = [
             [
                 'name' => 'First',
-                'numberic' => '1'
+                'numeric' => '1'
             ],
             [
                 'name' => 'Second',
-                'numberic' => '2'
+                'numeric' => '2'
             ],
             [
                 'name' => 'Third',
-                'numberic' => '3'
+                'numeric' => '3'
             ],
         ];
         
