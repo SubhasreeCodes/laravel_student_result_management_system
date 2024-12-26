@@ -12,4 +12,9 @@ class Section extends Model
     protected $fillable = [
         'name'
     ];
+
+    public function groups()
+    {
+        return $this->belongsToMany(Group::class, 'group_section', 'section_id', 'group_id');
+    }
 }
