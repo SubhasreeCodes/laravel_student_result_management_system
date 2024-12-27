@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 class StudentGroupSection extends Model
 {
     use HasFactory;
+
+    protected $table = 'student_group_section';
+    
     // Define the relationship with the Student model
     public function student()
     {
