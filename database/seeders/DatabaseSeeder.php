@@ -31,5 +31,8 @@ class DatabaseSeeder extends Seeder
 
         // call the Student Seeder class
         $this->call(StudentSeeder::class);
+
+        // call the Student Group Section Seeder class
+        $this->call(StudentGroupSectionSeeder::class);
     }
 }
